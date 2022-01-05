@@ -1,0 +1,18 @@
+#3. Write a Python program to assign a value of all the basic type variables and print them 
+#(Integer, Float, Bool, String, Complex) and print its type and memory location where they are stored.
+
+name="rambabu"
+contactnumber=123456789
+marks=90.6
+result=True
+comp=3+6j
+print(type(name))
+print(id(name))
+print(type(contactnumber))
+print(id(contactnumber))
+print(type(marks))
+print(id(marks))
+print(type(result))
+print(id(result))
+print(type(comp))
+print(id(comp))
