@@ -1,0 +1,9 @@
+#8: Write a Python program to solve the Quadratic Equation
+
+a=int(input("Enter the first number:"))
+b=int(input("Enter the second number:"))
+c=int(input("Enter the third number:"))
+d=(b**2)-4*a*c
+s1=(-b+(d**0.5))/(2*a)
+s2=(-b-(d**0.5))/(2*a)
+print(s1,s2)
