@@ -1,0 +1,7 @@
+#2. Write a Python program to calculate the Simple Interest by taking the values dynamically from the user. Formula: PNR/100
+
+P=int(input("Enter the principle amount"))
+T=int(input("Enter time"))
+R=int(input("Enter rate of interest"))
+SimpleInterest =(P*T*R)/(100)
+print(SimpleInterest)
