@@ -1,0 +1,10 @@
+#3. Write a Python program to read a number n from the user and compute n+nn+nnn
+#Example: If the n = 5
+#5+55+555 = 615
+
+n=int(input("Enter a number"))
+temp=str(n)
+t=temp+temp
+tt=temp+temp+temp
+compute=n+int(t)+int(tt)
+print(compute)
