@@ -1,0 +1,9 @@
+#print sum product of the number,if product > 1000 print product otherwise product < 1000 print sum
+
+a=int(input("Enter first number"))
+b=int(input("Enter second number"))
+c=a*b
+if c>1000:
+    print(a+b)
+else:
+    print(c)
