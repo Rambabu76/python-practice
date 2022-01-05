@@ -1,0 +1,12 @@
+#5. Write a program that accepts cost of goods sold (cgos) revenue generated, operating costs (oc) and prints Gross profit, net profit and net profit percentage.
+#Hint: Net profit = Revenue – cgos – oc
+
+cgos=int(input("enter cost of goods sold:"))
+rg=int(input("revenue generated:"))
+oc=int(input("enter operating costs:"))
+grossprofit=rg-cgos
+netprofit=rg-cgos-oc
+netprofitpercentage=(netprofit)/(rg)*(100)
+print("grossprofit:",grossprofit)
+print("netprofit:",netprofit)
+print("netprofitpercentage:",netprofitpercentage)
