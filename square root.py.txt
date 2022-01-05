@@ -1,0 +1,5 @@
+#7. Write a Python program to find the Square root of the given Number
+
+import math
+a=int(input("enter a value:"))
+print(math.sqrt(a))
