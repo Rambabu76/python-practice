@@ -1,0 +1,11 @@
+2.Write a Python program to create 3 variable and assign them Binary,
+Octal and Hexadecimal values and print the result in their decimal equivalent
+value.
+
+for i in range(0,3):
+    
+    i=int(input("Enter number:"))
+
+    print(bin(i))
+    print(oct(i))
+    print(hex(i))
